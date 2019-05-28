@@ -1,0 +1,67 @@
+{
+    "Menu":{
+        "Login": "Einloggen",
+        "Logout": "Ausloggen",
+        "Dashboard": "Übersicht",
+        "Theme": "Theme ändern"
+    },
+    "Landingpage":{
+        "Title": "Startseite",
+        "Toplist": "Topliste (meiste Zeit auf dem Server verbracht)",
+        "Percentage": "Prozent registrierte/unregistrierte Benutzer",
+        "Users": "Benutzeranzahl pro Tag"
+    },
+    "Login":{
+        "Title": "Einloggen",
+        "Login": "Einloggen",
+        "username": "Benutzername",
+        "password": "Passwort",
+        "loginbutton": "Einloggen",
+        "NotSuccess": "Benutzer nicht gefunden oder falsches Passwort..",
+        "Success": "Erfolgreich eingeloggt.."
+    },
+    "Logout": {
+        "Title": "Ausloggen",
+        "Success": "Erfolgreich ausgeloggt.."
+    },
+    "Dashboard":{
+        "Title": "Übersicht",
+        "Logpanel": "Verbindungsprotokoll",
+        "Type": "Typ",
+        "Types": {
+            "connect": "verbunden",
+            "disconnect": "getrennt"
+        },
+        "Activepanel": {
+            "title": "Aktivitäten der letzten 7 Tage",
+            "activity": "Aktivitäten",
+            "left": "Zeit (hh:mm:ss)"
+        },
+        "Informationpanel": {
+            "Information": "Informationen über dich",
+            "Name": "Name",
+            "Rank": "Rang",
+            "Frontpageswitch": "Persönliche Daten auf der Startseite anzeigen lassen",
+            "DeleteAccount": "Account löschen",
+            "Update": "Informationen aktualisieren",
+            "UpdateNow": "Aktualisieren",
+            "Password": "Neues Passwort"
+        },
+        "DeleteSuccess": "Account erfolgreich gelöscht..",
+        "UpdateSuccess": "Benutzerdaten aktualisiert.."
+    },
+    "Legalnotice":{
+        "Title": "Impressum"
+    },
+    "Error": {
+        "Title": "404",
+        "message": "Resource nicht gefunden"
+    },
+    "Footer": {
+        "Madeby": "Erstellt von Benedikt Bertsch mit ❤️",
+        "legalNotice": "Impressum"
+    },
+    "CheckAuth": {
+        "Token": "Logintoken ist ausgelaufen"
+    }
+}

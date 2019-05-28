@@ -1,0 +1,67 @@
+{
+    "Menu":{
+        "Login": "Login",
+        "Logout": "Logout",
+        "Dashboard": "Dashboard",
+        "Theme": "Change Theme"
+    },
+    "Landingpage":{
+        "Title": "Landingpage",
+        "Toplist": "Toplist (spent time on server)",
+        "Percentage": "Percentage Registered/Unregistered Users",
+        "Users": "Users per Day"
+    },
+    "Login":{
+        "Title": "Loginpage",
+        "Login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "loginbutton": "Login",
+        "NotSuccess": "User not found or wrong password..",
+        "Success": "Successfully Logged in.."
+    },
+    "Logout": {
+        "Title": "Logout",
+        "Success": "Successfully logged out.."
+    },
+    "Dashboard":{
+        "Title": "Dashboard",
+        "Logpanel": "Connect & Disconnect Information",
+        "Type": "Type",
+        "Types": {
+            "connect": "connect",
+            "disconnect": "disconnect"
+        },
+        "Activepanel": {
+            "title": "Activity last 7 Days",
+            "activity": "activity",
+            "left": "Time (hh:mm:ss)"
+        },
+        "Informationpanel": {
+            "Information": "Information about you",
+            "Name": "name",
+            "Rank": "rank",
+            "Frontpageswitch": "Show information on frontpage",
+            "DeleteAccount": "Delete Account",
+            "Update": "Update your information",
+            "UpdateNow": "Update now",
+            "Password": "New Password"
+        },
+        "DeleteSuccess": "Account successfully deleted..",
+        "UpdateSuccess": "Userdata updated.."
+    },
+    "Legalnotice":{
+        "Title": "Legal Notice"
+    },
+    "Error": {
+        "Title": "404",
+        "message": "Resource not found"
+    },
+    "Footer": {
+        "Madeby": "Created by Benedikt Bertsch with ❤️",
+        "legalNotice": "Legal Notice"
+    },
+    "CheckAuth": {
+        "Token": "Logintoken ran out of time.."
+    }
+}

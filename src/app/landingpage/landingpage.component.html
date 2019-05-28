@@ -1,0 +1,26 @@
+<div *ngIf="charts; then loaded else notloaded"></div>
+<ng-template #notloaded>
+  <mat-spinner></mat-spinner>
+</ng-template>
+<ng-template #loaded>
+  <div class="main" fxLayoutAlign="center start">
+    <mat-card style="order: 1;">
+      <mat-card-content fxLayoutAlign="center center">
+        <highcharts-chart [Highcharts]="Highcharts" [options]="chartTime" style="border-radius: 4px;">
+        </highcharts-chart>
+      </mat-card-content>
+    </mat-card>
+    <mat-card style="order: 2;">
+      <mat-card-content fxLayoutAlign="center center">
+        <highcharts-chart [Highcharts]="Highcharts" [options]="chartPercentage" style="border-radius: 4px;">
+        </highcharts-chart>
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="one" style="order: 3;">
+      <mat-card-content fxLayoutAlign="center center">
+        <highcharts-chart [Highcharts]="Highcharts" [options]="chartUsersperday" style="border-radius: 4px;">
+        </highcharts-chart>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</ng-template>

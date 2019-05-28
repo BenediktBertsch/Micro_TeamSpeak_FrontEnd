@@ -1,0 +1,16 @@
+<div class="footer">
+    <div style="flex-direction: column" style="padding-top:2.5%;">
+        <div class="lineone" fxLayoutAlign="center center">
+            <hr style="margin-right: 20px">
+            <img src="../../assets/images/logowobg.svg" alt="LogoFooter" width="120">
+            <hr style="margin-left: 20px">
+        </div>
+    </div>
+    <div *ngIf="!bool" class="linetwolight" fxLayoutAlign="center">
+        <p class="newline" style="text-align: center" >{{'Footer.Madeby' | translate}} &nbsp;</p>
+        <p class="newline" style="text-align: center" routerLink="about"> {{'Footer.legalNotice' | translate}}</p>
+    </div>
+    <div *ngIf="bool" class="linetwodark" fxLayoutAlign="center">
+        <p class="newline" style="text-align: center" >{{'Footer.Madeby' | translate}} &nbsp;</p>
+        <p class="newline" style="text-align: center" routerLink="about"> {{'Footer.legalNotice' | translate}}</p>
+</div>

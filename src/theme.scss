@@ -1,0 +1,15 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$ip-primary: mat-palette($mat-indigo);
+$ip-accent: mat-palette($mat-pink, A200, A100, A400);
+$ip-theme: mat-light-theme($ip-primary, $ip-accent);
+$ip-theme-dark: mat-dark-theme($ip-primary, $ip-accent);
+
+.indigo-pink {
+  @include angular-material-theme($ip-theme);
+}
+
+.indigo-pink-dark {
+  @include angular-material-theme($ip-theme-dark);
+}

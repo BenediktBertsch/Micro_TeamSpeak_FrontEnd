@@ -1,0 +1,29 @@
+.footer{
+    /*background-color: #0f1127;*/
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+  hr{
+    width: 100%;
+    margin: 0;
+  }
+  .lineone{
+    flex-direction: row; 
+    padding-top: 5px;
+  }
+  .linetwodark{
+    color: transparent;
+  }
+  .linetwolight{
+    color: transparent;
+  }
+  .linetwodark:hover{
+    color: white;
+  }
+  .linetwolight:hover{
+    color: black;
+  }
+  .newline {
+    white-space: pre-line;
+  }

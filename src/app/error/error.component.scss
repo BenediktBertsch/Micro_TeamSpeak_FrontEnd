@@ -1,0 +1,13 @@
+pre{
+    font-size: 30px; color: white;
+}
+@media screen and (min-width: 0px){
+    img{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 900px){
+    img{
+        max-width: 720px;
+    }
+}

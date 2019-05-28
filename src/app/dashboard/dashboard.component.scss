@@ -1,0 +1,56 @@
+  .main {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 1%
+  }
+  @media screen and (min-width: 0px){
+    .main{
+      flex-direction: column;
+    }
+    mat-card{
+      margin: 5px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media screen and (min-width: 900px){
+    .main{
+      flex-direction: row;
+    }
+    mat-card{
+      margin: 5px;
+      width: 45%;
+      height: 40%;
+      box-shadow: 0 6px 15px rgba(36,37,38,0.08);
+    }
+    .one{
+        height: auto;
+        width: auto;
+        min-width: 20%;
+        max-width: 45%;
+    }
+    .two{
+      height: auto;
+    }
+    .three{
+      margin: 5px;
+      box-shadow: 0 6px 15px rgba(36,37,38,0.08);
+    }
+  }
+  mat-card:hover{
+    box-shadow:5px 12px 20px rgba(36,37,38,0.13);
+  }
+  mat-card{
+    box-shadow: 0 6px 15px rgba(36,37,38,0.08);
+  }
+  mat-form-field{
+    margin-top: 20px;
+    width: 100%;
+  }
+  highcharts-chart::ng-deep {
+    .highcharts-container,
+    .highcharts-container svg {
+       width: 100% !important;
+       height: auto !important;
+    }
+  }

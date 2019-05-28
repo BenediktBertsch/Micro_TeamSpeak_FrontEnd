@@ -1,0 +1,22 @@
+<div fxLayoutAlign="center center">
+  <mat-card>
+    <mat-card-header>
+      <h1>{{'Login.Login' | translate}}</h1>
+    </mat-card-header>
+    <mat-card-content>
+      <form>
+        <mat-form-field class="full-width">
+          <input #username matInput required type="username" placeholder="{{'Login.username' | translate}}">
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <input #password matInput required type="password" placeholder="{{'Login.password' | translate}}">
+        </mat-form-field>
+        <div fxLayoutAlign="center center">
+          <button mat-raised-button color="primary" (click)="OnLoginButton(password.value,username.value)">
+            {{'Login.loginbutton' | translate}}
+          </button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
