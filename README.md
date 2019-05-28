@@ -1,3 +1,8 @@
+# TeamSpeak Frontend
+Visual statistics.
+
+![Preview](2019-05-28%2021_32_34-Greenshot.png)
+
 ## Build the project with your data
 
 The FrontEnd is a bit more complicated you can customize the API address in the `feTeamSpeak/src/environments/environment.prod.ts` File as well the Website Title.
