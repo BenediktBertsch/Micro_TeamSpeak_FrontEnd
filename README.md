@@ -1,7 +1,6 @@
-# TeamSpeak Frontend
-Visual statistics.
+<img src="https://raw.githubusercontent.com/BenediktBertsch/Micro_TeamSpeak_FrontEnd/master/logo.png" width="48">
 
-![Preview](logo.png)
+# TeamSpeak Frontend
 
 ## Build the project with your data
 
