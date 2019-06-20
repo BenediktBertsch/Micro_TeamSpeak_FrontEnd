@@ -1,7 +1,7 @@
 # TeamSpeak Frontend
 Visual statistics.
 
-![Preview](2019-05-28%2021_32_34-Greenshot.png)
+![Preview](logo.png)
 
 ## Build the project with your data
 
