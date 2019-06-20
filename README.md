@@ -1,4 +1,6 @@
-<img src="https://raw.githubusercontent.com/BenediktBertsch/Micro_TeamSpeak_FrontEnd/master/logo.png" width="48">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BenediktBertsch/Micro_TeamSpeak_FrontEnd/master/logo.png" width="150">
+</p>
 
 # TeamSpeak Frontend
 
