@@ -33,5 +33,6 @@ export class AppComponent {
       this.overlayContainer.getContainerElement().classList.add('dark-theme')
       localStorage.setItem('theme', 'dark')
     }
+    location.reload()
   }
 }
