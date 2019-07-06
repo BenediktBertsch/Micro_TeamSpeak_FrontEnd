@@ -36,7 +36,7 @@ export class LandingpageComponent implements OnInit {
   chartUsersperday = {}
   charts = false
   theme = {}
-  chartTime: Highcharts.Chart
+  chartTime: any
   time = Number 
   minutes = Number 
   hours = Number
